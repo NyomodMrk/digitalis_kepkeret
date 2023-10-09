@@ -7,7 +7,27 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <form>
+        <div>
+          <label for="url">A kép URL-je</label>
+          <input type="text" id="url">
+        </div>
+        <div>
+          <label for="kep_szelessege">A kép szélessége</label>
+          <input type="number" id="kep_szelessege">
+        </div>
+        <div>
+          <label for="kepkeret_vastagsaga">Képkeret vastagsága</label>
+          <input type="number" id="kepkeret_vastagsaga0">
+        </div>
+        <div>
+          <label for="kepkeret_szine">Képkeret színe</label>
+          <input type="color" id="kepkeret_szine">
+        </div>
+      </form>
+      <img src="" alt="Kép" id="kep">
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
