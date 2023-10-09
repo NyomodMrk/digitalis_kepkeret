@@ -1,0 +1,12 @@
+.dark-mode {
+  color: white;
+  background-color: #222;
+}
+
+footer {
+  background-color: white;
+}
+
+.dark-mode footer {
+  background-color: #222;
+}

@@ -8,6 +8,11 @@ function init() {
   document.getElementById("kep_szelessege").addEventListener("input",kepkeretKeszit);
   document.getElementById("kepkeret_vastagsaga").addEventListener("input", kepkeretKeszit);
   document.getElementById("kepkeret_szine").addEventListener("input", kepkeretKeszit);
+  document.getElementById("szintema").addEventListener("click", szintemaValtas)
+}
+
+function szintemaValtas() {
+  document.body.classList.toggle("dark-mode");
 }
 
 function kepkeretKeszit() {
