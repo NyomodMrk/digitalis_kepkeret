@@ -1,4 +1,6 @@
-import './style.css'
+import './style.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 document.addEventListener("DOMContentLoaded", init);
 function init() {
